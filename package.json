@@ -1,0 +1,31 @@
+{
+  "name": "ibk-ts-npm",
+  "version": "1.0.0",
+  "description": "Ibukun typescript npm package",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hokagedemehin/ibk-typescript-package.git"
+  },
+  "keywords": [
+    "typescript",
+    "npm",
+    "package"
+  ],
+  "author": "ibukun demehin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hokagedemehin/ibk-typescript-package/issues"
+  },
+  "homepage": "https://github.com/hokagedemehin/ibk-typescript-package#readme",
+  "devDependencies": {
+    "tsup": "^8.2.3",
+    "typescript": "^5.5.4"
+  }
+}
